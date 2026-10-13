@@ -188,7 +188,7 @@ export const Layout: FC<PropsWithChildren<{ title: string; description: string; 
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       {image ? <meta property="og:image" content={image} /> : null}
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary" />
       <meta name="theme-color" content="#070b0a" />
       <link rel="icon" type="image/png" href="/img/icon.png" />
       <link rel="apple-touch-icon" href="/img/icon.png" />
