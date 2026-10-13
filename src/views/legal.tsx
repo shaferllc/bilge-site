@@ -14,7 +14,7 @@ export const PrivacyPage: FC<{ app: AppInfo }> = ({ app }) => (
       <p>Scan results are kept in ~/Library/Application Support/Bilge so they survive a relaunch. Photo comparisons run on your Mac with Apple's Vision framework. None of it is uploaded.</p>
       <h2>When Bilge goes online</h2>
       <p><b>License activation and a regular check:</b> your license key, your Mac's name and a one-way hash of its hardware ID (not the ID itself) go to shafer.llc to confirm the license and list the Mac on your account.</p>
-      <p><b>Update checks:</b> Bilge fetches {app.url}/appcast.xml to see whether a newer version exists.</p>
+      <p><b>Update checks:</b> Bilge fetches dl.shafer.llc/bilge/appcast.xml a little after launch to see whether a newer version exists. Nothing about your Mac is sent beyond what any web request carries.</p>
       <h2>Buying</h2>
       <p>You buy through a shafer.llc account: you sign in with a link sent to your email, no password. Payment is handled by Stripe, which receives your card details under its own privacy policy; we never see them. We keep your email, your order and your license key so we can support your license.</p>
       <h2>This website</h2>
