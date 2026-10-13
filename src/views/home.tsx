@@ -35,6 +35,7 @@ export const HomePage: FC<{ app: AppInfo }> = ({ app }) => (
           <div class="req">{app.trialDays}-day free trial · {app.price} once, no subscription · {app.requires}</div>
         </div>
         <div>
+          <img class="appicon" src="/img/icon.png" width="128" height="128" alt="Bilge's icon" />
           <div class="term">
             <div class="t"><span>Menu bar · ⌥⇧B</span><span>always on</span></div>
             <pre>

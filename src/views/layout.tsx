@@ -50,6 +50,7 @@ const STYLES = `
   .shot { border: 1px solid var(--line-2); border-radius: 14px; overflow: hidden; background: var(--panel);
     box-shadow: 0 30px 80px -30px rgba(0,0,0,.9), 0 0 0 1px rgba(47,224,181,.06), 0 0 60px -20px rgba(47,224,181,.25); }
   .shot img { display: block; width: 100%; height: auto; }
+  .appicon { display: block; margin: 0 auto 1.4rem; width: 8rem; height: 8rem; filter: drop-shadow(0 0 28px rgba(47,224,181,.35)); }
   .cap { font-family: var(--mono); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); text-align: center; margin-top: .8rem; }
 
   section { padding: 4.5rem 0; border-top: 1px solid var(--line); }
