@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bilge-site",
+  "main": "src/worker.ts",
+  // nodejs_compat from 2025-04-01 fills process.env from vars and secrets.
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  // The icon and the Smart Scan demo script.
+  "assets": { "directory": "./public" },
+  "workers_dev": true,
+  "observability": { "enabled": true }
+}
