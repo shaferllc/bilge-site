@@ -1,8 +1,8 @@
 # bilge-site
 
-Bilge's website: a Keel app on dply Edge (Workers runtime), styled like the app's Deck (and Binnacle's site).
+Bilge's website: a Keel app on dply Edge (Workers runtime). Its look comes from the icon: navy hull, cyan water, yellow pump arrow.
 
-- `/` marketing, with a live Smart Scan demo on sample data (`public/demo.js`)
+- `/` marketing, with a hull you scan and pump out, on sample data (`public/demo.js`)
 - `/buy` → shafer.llc/account/buy/bilge (Stripe Checkout; shafer.llc issues the license)
 - `/download` → dl.shafer.llc/bilge/Bilge.dmg (R2) · `/appcast.xml` → dl.shafer.llc/bilge/appcast.xml
 

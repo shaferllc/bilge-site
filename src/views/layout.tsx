@@ -43,7 +43,7 @@ const STYLES = `
 
   /* Hero: the deep, with a waterline into the page. */
   .deep { background: radial-gradient(90% 70% at 80% 10%, var(--navy-3), transparent 70%), linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%); color: #fff; position: relative; }
-  .hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 3rem; align-items: center; padding: 4.5rem 0 3rem; }
+  .hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 3rem; align-items: center; padding-top: 4.5rem; padding-bottom: 3rem; }
   .eyebrow { display: inline-flex; align-items: center; gap: .5rem; font-family: var(--mono); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--water); }
   .eyebrow::before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; background: var(--water); box-shadow: 0 0 0 4px rgba(95,212,224,.2); }
   h1, h2, h3 { font-family: var(--display); letter-spacing: -0.03em; }
